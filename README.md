@@ -16,6 +16,8 @@ If you choose to not use this model, you can generate a new one in the interface
 
 *.pkl* files are inherently **insecure** and deserializing them can lead to arbitrary code execution. This format was chosen for convenience only. Run instance in a safe place.
 
+Also, all user inputs are not **sanitized** and unexpected values will crash the program. I coded this up over a weekend; play nice.
+
  ## Use
  ###### Dependencies:
  1. Anaconda 
